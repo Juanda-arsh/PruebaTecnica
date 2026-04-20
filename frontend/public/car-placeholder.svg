@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Auto</title>
+  <desc id="desc">Ilustración simple de un auto</desc>
+  <rect width="640" height="360" fill="#f8f3ff"/>
+  <path d="M132 218h376c24 0 44 20 44 44v18H88v-18c0-24 20-44 44-44z" fill="#241433"/>
+  <path d="M186 199l46-70c10-15 27-24 45-24h118c19 0 37 10 47 26l42 68H186z" fill="#7c3aed"/>
+  <path d="M250 132h74v67H207l38-58c1-3 3-6 5-9zm98 0h45c10 0 20 5 25 14l33 53H348v-67z" fill="#ede9fe"/>
+  <circle cx="184" cy="280" r="42" fill="#241433"/>
+  <circle cx="184" cy="280" r="18" fill="#e5e7eb"/>
+  <circle cx="456" cy="280" r="42" fill="#241433"/>
+  <circle cx="456" cy="280" r="18" fill="#e5e7eb"/>
+  <path d="M114 239h64c8 0 14 6 14 14v2h-92v-2c0-8 6-14 14-14z" fill="#c084fc"/>
+  <path d="M484 239h42c8 0 14 6 14 14v2h-70v-2c0-8 6-14 14-14z" fill="#c026d3"/>
+</svg>
