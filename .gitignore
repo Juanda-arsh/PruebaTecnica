@@ -3,7 +3,10 @@ prueba/.gradle-run/
 prueba/.gradle-user-home/
 prueba/build/
 prueba/bin/
+docs/
 frontend/node_modules/
 frontend/dist/
+frontend/.angular/
 *.log
+*.err
 .env

@@ -99,7 +99,7 @@ public class CarService implements CarManagementUseCase {
     private void validateYear(Integer year) {
         int maxYear = Year.now().getValue() + 1;
         if (year == null || year < 1886 || year > maxYear) {
-            throw new BadRequestException("El año del auto debe estar entre 1886 y " + maxYear);
+            throw new BadRequestException("El anio del auto debe estar entre 1886 y " + maxYear);
         }
     }
 }

@@ -36,8 +36,8 @@ El dominio no depende de JPA ni de Spring MVC. La persistencia implementa puerto
 - PostgreSQL
 - Flyway
 - JWT HMAC SHA-256
-- React + Vite
-- React Router, Axios, Context API
+- Angular 21
+- Angular Router, HttpClient, reactive forms, signals
 
 ## Variables de entorno
 
@@ -49,14 +49,15 @@ DB_USERNAME=postgres
 DB_PASSWORD=postgres
 JWT_SECRET=local-development-secret-change-me-to-at-least-32-characters
 JWT_EXPIRATION_MINUTES=120
-CORS_ALLOWED_ORIGINS=http://localhost:5173
+CORS_ALLOWED_ORIGINS=http://localhost:4200,http://127.0.0.1:4200,http://localhost:5173,http://127.0.0.1:5173
 SERVER_PORT=8090
 ```
 
 Frontend:
 
-```env
-VITE_API_BASE_URL=http://localhost:8090/api
+```text
+La URL de la API esta en frontend/src/environments/environment.ts
+apiBaseUrl: http://localhost:8090/api
 ```
 
 ## Ejecutar local sin Docker
@@ -84,7 +85,7 @@ npm install
 npm run dev
 ```
 
-El frontend queda en `http://localhost:5173`.
+El frontend queda en `http://localhost:4200`.
 
 ## Ejecutar con Docker Compose
 
@@ -96,7 +97,7 @@ docker compose up --build
 
 Servicios:
 
-- Frontend: `http://localhost:5173`
+- Frontend: `http://localhost:4200`
 - Backend: `http://localhost:8090`
 - PostgreSQL: `localhost:5432`
 
